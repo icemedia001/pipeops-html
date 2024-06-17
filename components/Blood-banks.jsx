@@ -39,7 +39,7 @@ const BloodBanks = () => {
 							<img
 								src={bloodbank.pic}
 								alt={`${bloodbank.name}'s picture`}
-								className="w-[227px] h-[228px] rounded-[20px] object-contain"
+								className="w-[227px] h-[228px] rounded-[20px] object-cover"
 							/>
 						</div>
 						<div className="space-y-1">

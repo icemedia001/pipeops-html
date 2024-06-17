@@ -36,7 +36,7 @@ const TopDonors = () => {
 							<img
 								src={donor.pic}
 								alt={`${donor.name}'s picture`}
-								className="w-20 h-20 rounded-full object-contain"
+								className="w-20 h-20 rounded-full object-cover"
 							/>
 						</div>
 						<div>

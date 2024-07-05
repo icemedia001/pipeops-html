@@ -52,7 +52,7 @@ const Search = () => {
 
 	return (
 		<form
-			className="flex justify-center"
+			className="flex justify-center mt-10"
 			onSubmit={handleSearch}
 		>
 			<div className="flex items-center justify-center gap-3 w-1/3">
@@ -60,7 +60,7 @@ const Search = () => {
 					type="text"
 					placeholder="Location"
 					value={location}
-					className="placeholder:text-sm text-black/70 border-[#2C2C2C]/10"
+					className="placeholder:text-sm text-sm text-black/70 border-[#2C2C2C]/10"
 					onChange={(e) => setLocation(e.target.value)}
 				/>
 				<select

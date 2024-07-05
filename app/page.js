@@ -5,7 +5,7 @@ import Results from "@/components/Search-result";
 export default function Home() {
 	return (
 		<div className="px-[100px] ">
-			<Nav />
+			{/* <Nav /> */}
 			<Search />
 			<Results />
 		</div>
